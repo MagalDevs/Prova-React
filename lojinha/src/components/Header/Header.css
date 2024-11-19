@@ -1,20 +1,25 @@
-header{
+header .cima{
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 10px 20px;
     background-color: #00ff93;
     color: #030342;
-    padding: 1.5rem 0;
+    padding: 1rem 0;
 }
 
 .search{
     width: 32%;
-    height: 2rem;
+    height: 2.2rem;
     border-style: hidden;
     border-color: #030342;
     border-radius: 0.8rem;
-    text-align: center;
+    text-align: justify;
+    text-indent: 1rem;
+}
+
+.search:hover{
+    border: 0.5px solid #030342;
 }
 
 .div-cadastro{
@@ -24,8 +29,13 @@ header{
     gap: 10px;
 }
 
+.div-cadastro:hover{
+    color: #fff;
+    transition: 100ms;
+}
+
 .icone{
-    
+    font-size: 2rem;
 }
 
 .cadastro{
@@ -42,4 +52,39 @@ header{
     color: #fff;
     text-decoration: underline;
     transition: 100ms;
+}
+
+.links{
+    height: 3rem;
+    width: 100%;
+    background-color: #030342;
+    color: #00ff93;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.links a{
+    text-decoration: none;
+    color: #00ff93;
+    font-size: 1.2rem;
+}
+
+.links a:hover{
+    color: #fff;
+    text-decoration: underline;
+    transition: 50ms;
+}
+
+.headline{
+    height: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    color: #030342;
+    background-color: #00ff93;
+    font-weight: bold;
 }
