@@ -1,0 +1,31 @@
+.nossas-redes h1 {
+    padding-top: 3rem;
+    text-align: center;
+    font-size: 2.5rem;
+    color: #1a1a4c; 
+    margin-bottom: 2rem;
+  }
+  
+  .redes {
+    display: flex; 
+    justify-content: center; 
+    gap: 6rem; 
+    flex-wrap: wrap; /* pra adaptar tela*/
+    margin-top: 5rem;
+    margin-bottom: 3rem; 
+  }
+  
+  
+  .rede-item {
+    display: flex; 
+    align-items: center;
+    gap: 2rem; 
+    font-size: 1.5rem; 
+    color: #1a1a4c; 
+  }
+
+  .icone {
+    font-size: 3rem; 
+    color: #1a1a4c; 
+  }
+  
