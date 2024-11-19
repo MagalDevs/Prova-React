@@ -1,0 +1,39 @@
+.card{
+    height: 24rem;
+    width: 22rem;
+    background-image: url("https://static.vecteezy.com/ti/vetor-gratis/p2/2082471-black-and-grey-modern-material-design-overlapped-layers-background-corporate-template-for-your-business-vector-abstract-widescreen-background-vetor.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card img{
+    margin: 2rem 0;
+    width: 20rem;
+}
+h2 span{
+    color: #b10000;
+}
+
+.preco{
+    font-size: 2rem;
+}
+
+.comprar{
+    text-decoration: underline;
+    color: #fff;
+}
+
+.card-link{
+    display: flex;
+    align-items: center;
+}
+
+.card-link .seta{
+    font-size: 1.5rem;
+    color: #b10000;
+}
