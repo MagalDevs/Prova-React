@@ -1,8 +1,45 @@
 header{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 10px 20px;
-    background-color: #333;
+    background-color: #00ff93;
+    color: #030342;
+    padding: 1.5rem 0;
+}
+
+.search{
+    width: 32%;
+    height: 2rem;
+    border-style: hidden;
+    border-color: #030342;
+    border-radius: 0.8rem;
+    text-align: center;
+}
+
+.div-cadastro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.icone{
+    
+}
+
+.cadastro{
+    font-size: 1.1rem;
+    color: #030342;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 200ms;
+}
+
+.cadastro:hover{
     color: #fff;
+    text-decoration: underline;
+    transition: 100ms;
 }

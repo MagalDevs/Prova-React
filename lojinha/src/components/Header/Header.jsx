@@ -1,17 +1,23 @@
 import React from 'react'
 import './Header.css'
+import { VscAccount } from "react-icons/vsc";
+import { IconContext } from "react-icons";
+
+
 
 const Header = () => {
   return (
     <header>
-        <h1>IndaiaSports</h1>
-        <nav>
-          <ul>
-            <li>Home</li>
-            <li>Produtos</li>
-            <li>Contato</li>
-          </ul>
-        </nav>
+        <img src="./imgs/2-removebg-preview.png" alt="" />
+        <input type="search" name="search" className='search' placeholder='Search'/>
+        
+        <div className='div-cadastro'>
+            <IconContext.Provider  value={{className: "icone"}}>
+                <VscAccount />
+            </IconContext.Provider>
+            
+            <a className='cadastro' href="#">Cadastre-se</a>
+        </div>
     </header>
   )
 }
