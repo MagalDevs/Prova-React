@@ -1,6 +1,7 @@
 import React from 'react'
 import './Header.css'
 import { VscAccount } from "react-icons/vsc";
+import { FaShoppingCart } from "react-icons/fa";
 
 const Header = () => {
   return (
@@ -12,6 +13,10 @@ const Header = () => {
           <div className='div-cadastro'>
               <VscAccount className='icone'/>
               <a className='cadastro' href="#">Cadastre-se</a>
+          </div>
+          <div className='div-cadastro'>
+              <FaShoppingCart  className='icone'/>
+              <a className='cadastro' href="#" onClick={(Event) => Event.preventDefault()}>Meu carrinho</a>
           </div>
         </div>
         <nav className='links'>
