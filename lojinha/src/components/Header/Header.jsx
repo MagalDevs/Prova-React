@@ -13,7 +13,7 @@ const Header = () => {
           
           <div className='div-cadastro'>
               <VscAccount className='icone'/>
-              <a className='cadastro' href="#">Cadastre-se</a>
+              <Link className='cadastro' to="/Cadastro">Cadastre-se</Link>
           </div>
           <div className='div-cadastro'>
               <FaShoppingCart  className='icone'/>

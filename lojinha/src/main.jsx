@@ -7,17 +7,17 @@ import Footer from './components/Footer/Footer'
 import Produtos from './pages/Produtos'
 import Sobre from './pages/sobre-nos'
 import Home from './pages/Home'
+import Cadastro from './pages/Cadastro'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>
-      <Header />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/produtos" element={<Produtos />} />
         <Route path="/sobre" element={<Sobre />} />
+        <Route path='/cadastro' element={<Cadastro/>}/>
       </Routes>
-      <Footer/>
     </BrowserRouter>
   </StrictMode>
 );

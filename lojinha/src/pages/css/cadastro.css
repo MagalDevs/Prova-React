@@ -1,11 +1,16 @@
 .tela{
     width: 100%;
-    min-height: 100%;
+    min-height: 100vh;
     background-color: rgba(0, 0, 0, 0.529);
     position: absolute;
+    
 }
 
 .container-cadastro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 2rem auto;
     width: 40%;
     min-height: fit-content;
@@ -94,4 +99,14 @@
 
 .form .limpar:hover{
     background-color: #ff7f7f;
+}
+
+.voltar-link{
+    text-decoration: none;
+    color: #030342;
+}
+
+.voltar-link:hover{
+    color: #ff0000;
+    transition: 200ms;
 }

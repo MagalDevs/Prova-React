@@ -1,11 +1,15 @@
 import './css/global.css'
 import Faixaproduto from '../components/Faixaprodutos/Faixaproduto'
+import Header from '../components/Header/Header'
+import Footer from '../components/Footer/Footer'
 
 const Produtos = () => {
   return (
     <>
-    <h1>Nossos Produtos</h1>
-    <Faixaproduto/>
+      <Header/>
+      <h1>Nossos Produtos</h1>
+      <Faixaproduto/>
+      <Footer/>
     </>
     
   )
