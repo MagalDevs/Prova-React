@@ -1,0 +1,97 @@
+.tela{
+    width: 100%;
+    min-height: 100%;
+    background-color: rgba(0, 0, 0, 0.529);
+    position: absolute;
+}
+
+.container-cadastro{
+    margin: 2rem auto;
+    width: 40%;
+    min-height: fit-content;
+    padding: 1px 0 1rem 0;
+    background-color: #fff;
+    border-radius: 2rem;
+    box-sizing: border-box;
+}
+
+.botoes{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1rem 0;
+}
+
+.botoes button{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #030342;
+    color: #fff;
+    cursor: pointer;
+    transition: 200ms;
+}
+
+.botoes button:hover{
+    background-color: #00ff93;
+    color: #030342;
+    transition: 200ms;
+}
+
+.hidden{
+    display: none;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs label{
+    color: #030342;
+}
+
+.inputs input{
+    margin: 1rem 0;
+    padding: 10px;
+    width: 15rem;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.botoes{
+    display: flex;
+    flex-direction: row;
+    gap: 2.5rem;
+}
+
+.form button{
+    padding: 10px;
+    border: none;
+    width: 6rem;
+    border-radius: 5px;
+    background-color: #030342;
+    color: #fff;
+    cursor: pointer;
+    transition: 200ms;
+}
+
+.form button:hover{
+    background-color: #00ff93;
+    color: #030342;
+    transition: 200ms;
+}
+
+.form .limpar{
+    background-color: #ff0000;
+}
+
+.form .limpar:hover{
+    background-color: #ff7f7f;
+}
