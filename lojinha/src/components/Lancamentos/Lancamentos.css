@@ -6,26 +6,48 @@
 
 .titulolanc {
     font-size: 2.5rem;
-    margin-bottom: 2rem; /* Espaçamento entre o título e o subtítulo */
+    margin-bottom: 2rem;
 }
 
 .subtitulo {
     font-size: 1.75rem;
-    margin-bottom: 5rem; /* Espaçamento entre o subtítulo e as imagens */ 
+    margin-bottom: 5rem; 
+    background-color: #00ff93;
 }
 
 .chuteira {
     display: inline-block;
-    width: 45%; /* Ajuste o tamanho das imagens para que ocupem metade da linha */
+    width: 45%; 
     margin: 0 2.5%; /* Espaçamento entre as imagens */
-    box-sizing: border-box; /* Inclui as margens no tamanho total */
-    overflow: hidden; /* Impede que as imagens ultrapassem os limites do contêiner */
-    margin-bottom: 5rem; /* Espaçamento entre as imagens na parte inferior */
+    box-sizing: border-box; 
+    overflow: hidden; 
+    margin-bottom: 5rem; 
+    position: relative; /* Para permitir o posicionamento do botão dentro da div */
 }
 
 .chuteira img {
-    width: 100%; /* As imagens ocuparão 100% da largura do contêiner */
-    height: 400px; /* Defina uma altura fixa para todas as imagens */
-    object-fit: cover; /* Faz com que a imagem cubra o espaço sem distorcer, cortando a parte excedente, se necessário */
-    border-radius: 8px; /* Bordas arredondadas (opcional) */
+    width: 100%; 
+    height: 400px; 
+    object-fit: cover; 
+    border-radius: 8px; 
+}
+
+.btn-interesse {
+    position: absolute;
+    bottom:3rem; 
+    left: 20%;
+    transform: translateX(-50%); 
+    background-color: #00ff93; 
+    color: #030342; 
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 10px; 
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+.btn-interesse:hover {
+    background-color: #030342; 
+    color: #00ff93;
 }
