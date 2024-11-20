@@ -34,7 +34,7 @@
 
 .btn-interesse {
     position: absolute;
-    bottom:3rem; 
+    bottom: 3rem; 
     left: 20%;
     transform: translateX(-50%); 
     background-color: #00ff93; 
@@ -48,6 +48,12 @@
 }
 
 .btn-interesse:hover {
+    background-color: #030342; 
+    color: #00ff93;
+}
+
+
+.registrado {
     background-color: #030342; 
     color: #00ff93;
 }
