@@ -3,7 +3,7 @@ import './css/global.css'
 const Produtos = () => {
   return (
     <>
-    <h1>Produtos</h1>
+    <h1>Nossos Produtos</h1>
     </>
   )
 }
