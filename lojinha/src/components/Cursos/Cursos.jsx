@@ -5,23 +5,23 @@ const Cursos = () => {
 
     const info = [
         {
-            imagem: "https://www.tendaatacado.com.br/dicas/wp-content/uploads/2023/11/Interna-TEN-corrida-para-iniciantes-ok.jpg",
-            promocao: "Corra com",
-            pessoa: "Manoel",
-            preco: "100,00"
+            imagem: "https://boxingjunkie.usatoday.com/wp-content/uploads/sites/6/2022/10/anderson-silva-training-october-2022-62-e1666717743101.gif?w=997&h=600&crop=1",
+            promocao: "Lute com",
+            pessoa: "Anderson Silva",
+            preco: "579,99"
         },
         {
-            imagem: "https://www.tendaatacado.com.br/dicas/wp-content/uploads/2023/11/Interna-TEN-corrida-para-iniciantes-ok.jpg",
-            promocao: "Corra com",
-            pessoa: "Manoel",
-            preco: "100,00"
+            imagem: "https://atlantablackstar.com/wp-content/uploads/2022/02/GettyImages-1292326780-600x400.jpg",
+            promocao: "Treine com",
+            pessoa: "Kyrie Irving",
+            preco: "699,99"
         },
         {
-            imagem: "https://www.tendaatacado.com.br/dicas/wp-content/uploads/2023/11/Interna-TEN-corrida-para-iniciantes-ok.jpg",
-            promocao: "Corra com",
-            pessoa: "Manoel",
-            preco: "100,00"
-        },
+            imagem: "https://lncimg.lance.com.br/cdn-cgi/image/width=3840,quality=75,format=webp/uploads/2023/08/Flamengo-Arrascaeta-scaled-aspect-ratio-512-320-1.jpg",
+            promocao: "Jogue como o",
+            pessoa: "Arrascaeta",
+            preco: "499,99"
+        }
     ]
 
   return (
