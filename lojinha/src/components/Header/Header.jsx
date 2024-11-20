@@ -2,6 +2,7 @@ import React from 'react'
 import './Header.css'
 import { VscAccount } from "react-icons/vsc";
 import { FaShoppingCart } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
@@ -20,9 +21,9 @@ const Header = () => {
           </div>
         </div>
         <nav className='links'>
-          <a href="#">Home</a>
-          <a href="#">Produtos</a>
-          <a href="#">Sobre Nós</a>
+          <Link to="/">Home</Link>
+          <Link to="/Produtos">Produtos</Link>
+          <Link to="Sobre">Sobre Nós</Link>
         </nav>
         <div className='headline'> 
           <p>Os Melhores Preços da Região!!!</p>
