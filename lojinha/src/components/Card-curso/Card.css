@@ -19,7 +19,7 @@
     border-radius: 0.8rem 0.8rem 0 0;
 }
 h2 span{
-    color: #b10000;
+    color: #00ff93;
 }
 
 .preco{
@@ -38,5 +38,5 @@ h2 span{
 
 .card-link .seta{
     font-size: 1.5rem;
-    color: #b10000;
+    color: #00ff93;
 }

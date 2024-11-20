@@ -1,0 +1,31 @@
+.imagens-titulo {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #030342;
+}
+
+.titulolanc {
+    font-size: 2.5rem;
+    margin-bottom: 2rem; /* Espaçamento entre o título e o subtítulo */
+}
+
+.subtitulo {
+    font-size: 1.75rem;
+    margin-bottom: 5rem; /* Espaçamento entre o subtítulo e as imagens */ 
+}
+
+.chuteira {
+    display: inline-block;
+    width: 45%; /* Ajuste o tamanho das imagens para que ocupem metade da linha */
+    margin: 0 2.5%; /* Espaçamento entre as imagens */
+    box-sizing: border-box; /* Inclui as margens no tamanho total */
+    overflow: hidden; /* Impede que as imagens ultrapassem os limites do contêiner */
+    margin-bottom: 5rem; /* Espaçamento entre as imagens na parte inferior */
+}
+
+.chuteira img {
+    width: 100%; /* As imagens ocuparão 100% da largura do contêiner */
+    height: 400px; /* Defina uma altura fixa para todas as imagens */
+    object-fit: cover; /* Faz com que a imagem cubra o espaço sem distorcer, cortando a parte excedente, se necessário */
+    border-radius: 8px; /* Bordas arredondadas (opcional) */
+}
