@@ -1,10 +1,8 @@
-import React from 'react'
-import Header from '../components/Header/Header'
+import "./css/global.css"
 
 const Sobre = () => {
   return (
     <>
-        <Header/>
         <h1>Sobre Nós</h1>
     </>
   )
