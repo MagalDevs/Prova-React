@@ -1,4 +1,37 @@
 .todosprodutos {
-    font-size: 0.80rem;
-    text-align: left;
+    display: flex;
+    flex-direction: column; /* Organiza os itens em uma coluna */
+    align-items: flex-start; /* Alinha o conteúdo à esquerda */
+    gap: 12rem; /* Espaçamento entre cada seção */
+    margin-top: 2rem;
+}
+
+.produtos {
+    display: flex;
+    align-items: center; /* Alinha o ícone e o texto verticalmente */
+    justify-content: flex-start; /* Garante que o texto e o ícone fiquem alinhados à esquerda */
+    font-size: 1rem; /* Tamanho do texto */
+}
+
+.produtos h1 {
+    margin-left: 3rem; /* Espaço entre o ícone e o texto */
+}
+
+.produtos svg {
+    font-size: 2rem; /* Ajusta o tamanho do ícone */
+    color: #030342; /* Cor do ícone */
+}
+
+/* Estilo para a seção de produtos abaixo de cada esporte */
+.produtos-imagens {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Cria uma grid responsiva para as imagens */
+    gap: 1rem; /* Espaço entre as imagens */
+    width: 100%; /* A largura da grid deve ocupar 100% do seu contêiner */
+}
+
+.produtos-imagens img {
+    width: 100%; /* As imagens vão preencher a largura da célula da grid */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 8px; /* Adiciona borda arredondada às imagens */
 }
