@@ -18,11 +18,17 @@
     height: 12rem;
     border-radius: 0.8rem 0.8rem 0 0;
 }
+
+.card h2{
+    color: #fff;
+}
+
 h2 span{
     color: #00ff93;
 }
 
 .preco{
+    color: #00ff93;
     font-size: 2rem;
 }
 
