@@ -2,6 +2,7 @@ import './css/cadastro.css';
 import axios from 'axios';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import Footer from '../components/Footer/Footer';
 
 
 const Cadastro = () => {
@@ -292,6 +293,7 @@ const Cadastro = () => {
                     <Link className='voltar-link' to="/">Voltar à página principal</Link>
                 </div>
             </div>
+            <Footer />
         </div>
     )
 }
