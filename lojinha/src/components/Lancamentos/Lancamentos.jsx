@@ -1,12 +1,9 @@
-import { useState } from 'react'; // Importando useState
+import { useState } from 'react';
 import './Lancamentos.css';
 
 const Lancamentos = () => {
   const [clicado, setClicado] = useState([false, false, false, false]);
-
-  // Função para lidar com o clique do botão
   const handleClique = (index) => {
-    // marcar o botão clicado como "Registrado"
     const novosClicados = [...clicado];
     novosClicados[index] = true;
     setClicado(novosClicados);
