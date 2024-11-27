@@ -20,7 +20,7 @@ const Lancamentos = () => {
           className={`btn-interesse ${clicado[0] ? 'registrado' : ''}`}
           onClick={() => handleClique(0)}
         >
-          {clicado[0] ? 'Interesse Registrado' : 'Tenho Interesse!'}
+        {clicado[0] ? 'Interesse Registrado' : 'Tenho Interesse!'}
         </button>
       </div>
       <div className='chuteira'>
